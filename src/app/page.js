@@ -74,7 +74,7 @@ export default function Home() {
                 text-transparent
               "
             >
-              Padil.dev
+              Fadhil.Portfolio
             </motion.h1>
 
             {/* ICONS */}
@@ -614,7 +614,7 @@ export default function Home() {
         <div className="overflow-hidden relative">
 
           <img
-            src="/dashboard.png"
+            src="/website sekolah.jpeg"
             alt="project"
             className="
               w-full
@@ -702,7 +702,7 @@ export default function Home() {
         <div className="overflow-hidden relative">
 
           <img
-            src="/login.png"
+            src="/portofolio.png"
             alt="project"
             className="
               w-full
@@ -786,7 +786,7 @@ export default function Home() {
         <div className="overflow-hidden relative">
 
           <img
-            src="/katagori.png"
+            src="/login.png"
             alt="project"
             className="
               w-full
@@ -812,12 +812,12 @@ export default function Home() {
         <div className="p-7">
 
           <h3 className="text-2xl font-bold mb-4">
-            CRUD Data Siswa
+            Website penjualan elektronik
           </h3>
 
           <p className="text-gray-300 leading-relaxed mb-6">
-            Aplikasi CRUD modern menggunakan Laravel dan MySQL
-            dengan dashboard admin.
+            Website penjualan elektronik modern menggunakan Laravel dengan database SQL
+            yang memiliki 3 role yaitu admin, pelanggan, dan guest.
           </p>
 
           <button

@@ -103,7 +103,7 @@ export default function Navbar() {
             cursor-pointer
           "
         >
-          Padil.dev
+          Fadhil.Portfolio
         </motion.h1>
 
         {/* DESKTOP MENU */}
