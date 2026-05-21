@@ -884,7 +884,7 @@ export default function Home() {
       </button>
 
       <img
-        src="/dashboard.png"
+        src="/website sekolah.jpeg"
         alt="popup"
         className="
           w-full
@@ -933,7 +933,7 @@ export default function Home() {
       </button>
 
       <img
-        src="/login.png"
+        src="/portofolio.png"
         alt="popup"
         className="
           w-full
@@ -982,7 +982,7 @@ export default function Home() {
       </button>
 
       <img
-        src="/katagori.png"
+        src="/login.png"
         alt="popup"
         className="
           w-full
@@ -1346,7 +1346,7 @@ export default function Home() {
               bg-clip-text
             "
           >
-            2023
+            2023-2026
           </h1>
 
           <div className="text-7xl mb-4 drop-shadow-[0_0_20px_rgba(59,130,246,0.8)]">
