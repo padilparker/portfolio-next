@@ -1,0 +1,67 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #020617;
+}
+
+/* RAINBOW ANIMATION */
+@keyframes rainbow {
+  0% {
+    box-shadow: 0 0 25px #ff0000;
+  }
+
+  20% {
+    box-shadow: 0 0 25px #ff00ff;
+  }
+
+  40% {
+    box-shadow: 0 0 25px #0000ff;
+  }
+
+  60% {
+    box-shadow: 0 0 25px #00ffff;
+  }
+
+  80% {
+    box-shadow: 0 0 25px #00ff00;
+  }
+
+  100% {
+    box-shadow: 0 0 25px #ff0000;
+  }
+}
+
+.rainbow-hover:hover {
+  animation: rainbow 2s infinite linear;
+}
